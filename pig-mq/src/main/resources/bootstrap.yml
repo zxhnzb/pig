@@ -1,0 +1,14 @@
+server:
+  port: 90010
+spring:
+  application:
+    name: rabbit-demo
+
+  # 配置rabbitmq
+  rabbitmq:
+    host: 127.0.0.1  # 地址
+    port: 5672  # 端口
+    username: guest
+    password: guest
+
+
